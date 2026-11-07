@@ -1,0 +1,561 @@
+{
+  "admins": [
+    {
+      "id": "admin_1",
+      "email": "amarvinmulindwa2003@gmail.com",
+      "name": "Marvin Mulindwa",
+      "role": "super_admin",
+      "passwordHash": "e8a4ddd829aa1a165cc5af128d671f8897fcc72b922626ec179625155e059b4e2fffd4e70802924da3779612e4d53c6efb0f54466076d9b93105b73b7d0b06bc",
+      "salt": "1cd13da9c4ea6536ba3e017785c87a2d",
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "lastLogin": "2026-11-07T13:33:15.087Z"
+    },
+    {
+      "id": "admin_2",
+      "email": "amarvinmulindwa2004@gmail.com",
+      "name": "Marvin Mulindwa (Alt)",
+      "role": "super_admin",
+      "passwordHash": "e8a4ddd829aa1a165cc5af128d671f8897fcc72b922626ec179625155e059b4e2fffd4e70802924da3779612e4d53c6efb0f54466076d9b93105b73b7d0b06bc",
+      "salt": "1cd13da9c4ea6536ba3e017785c87a2d",
+      "createdAt": "2026-11-07T13:16:47.359Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept_1",
+      "name": "Media and Technical",
+      "description": "Media and Technical department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_2",
+      "name": "Prayer and Intercession",
+      "description": "Prayer and Intercession department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_3",
+      "name": "Evangelism",
+      "description": "Evangelism department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_4",
+      "name": "Ushering",
+      "description": "Ushering department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_5",
+      "name": "Choir",
+      "description": "Choir department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_6",
+      "name": "Praise and Worship",
+      "description": "Praise and Worship department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_7",
+      "name": "Hospitality",
+      "description": "Hospitality department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_8",
+      "name": "Mighty Youth",
+      "description": "Mighty Youth department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_9",
+      "name": "Children's Ministry",
+      "description": "Children's Ministry department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_10",
+      "name": "Men's Ministry",
+      "description": "Men's Ministry department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_11",
+      "name": "Women's Ministry",
+      "description": "Women's Ministry department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_12",
+      "name": "Ministering Groups",
+      "description": "Ministering Groups department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_13",
+      "name": "Church Administration",
+      "description": "Church Administration department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "dept_14",
+      "name": "Other",
+      "description": "Other department at Omega Prayer Mission Church Mbuya",
+      "isArchived": false,
+      "createdAt": "2026-11-07T13:16:47.359Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    }
+  ],
+  "members": [
+    {
+      "id": "mem_1",
+      "firstName": "Sarah",
+      "secondName": "Namubiru",
+      "fullName": "Sarah Namubiru",
+      "phone": "+256701234567",
+      "rawPhone": "0701234567",
+      "email": "sarah.namubiru@example.com",
+      "gender": "Female",
+      "departmentIds": [
+        "dept_1",
+        "dept_13",
+        "dept_5",
+        "dept_8"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "System Administrator & Media Coordinator",
+      "source": "manual",
+      "registrationDate": "2025-01-10T09:00:00Z",
+      "updatedAt": "2026-11-07T13:53:15.284Z",
+      "googleResponseId": "2_ABaOnue_test_e2e_456",
+      "googleEditResponseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc_Example/viewform?edit2=2_ABaOnue_test_e2e_456",
+      "googleSubmittedAt": "2026-11-07T13:53:15.284Z",
+      "lastSyncedAt": "2026-11-07T13:53:15.284Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "mem_2",
+      "firstName": "Sarah",
+      "secondName": "Namaganda",
+      "fullName": "Sarah Namaganda",
+      "phone": "+256772345678",
+      "rawPhone": "0772345678",
+      "email": "sarah.namaganda@gmail.com",
+      "gender": "Female",
+      "departmentIds": [
+        "dept_5",
+        "dept_6"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "Choir Director",
+      "source": "google_form",
+      "registrationDate": "2025-01-15T10:30:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_3",
+      "firstName": "David",
+      "secondName": "Okello",
+      "fullName": "David Okello",
+      "phone": "+256782456789",
+      "rawPhone": "256782456789",
+      "email": "david.okello@gmail.com",
+      "gender": "Male",
+      "departmentIds": [
+        "dept_2",
+        "dept_10"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "Intercession Leader",
+      "source": "google_form",
+      "registrationDate": "2025-01-20T14:15:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_4",
+      "firstName": "Grace",
+      "secondName": "Atuhaire",
+      "fullName": "Grace Atuhaire",
+      "phone": "+256752567890",
+      "rawPhone": "0752567890",
+      "email": "grace.atuhaire@yahoo.com",
+      "gender": "Female",
+      "departmentIds": [
+        "dept_4",
+        "dept_7"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "Head Usher",
+      "source": "manual",
+      "registrationDate": "2025-01-22T11:00:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_5",
+      "firstName": "Joshua",
+      "secondName": "Mukasa",
+      "fullName": "Joshua Mukasa",
+      "phone": "+256703678901",
+      "rawPhone": "0703678901",
+      "email": "josh.mukasa@gmail.com",
+      "gender": "Male",
+      "departmentIds": [
+        "dept_8"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "Youth Fellowship Secretary",
+      "source": "google_form",
+      "registrationDate": "2025-02-01T16:45:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_6",
+      "firstName": "Deborah",
+      "secondName": "Kembabazi",
+      "fullName": "Deborah Kembabazi",
+      "phone": "+256788789012",
+      "rawPhone": "0788789012",
+      "email": "deb.kembabazi@gmail.com",
+      "gender": "Female",
+      "departmentIds": [
+        "dept_9",
+        "dept_11"
+      ],
+      "smsConsent": false,
+      "status": "active",
+      "notes": "Sunday School Teacher - Requested email only, no SMS consent",
+      "source": "google_form",
+      "registrationDate": "2025-02-05T08:20:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_7",
+      "firstName": "Peter",
+      "secondName": "Kato",
+      "fullName": "Peter Kato",
+      "phone": "+256704890123",
+      "rawPhone": "0704890123",
+      "email": "peter.kato@gmail.com",
+      "gender": "Male",
+      "departmentIds": [
+        "dept_3"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "notes": "Evangelism Outreach Team",
+      "source": "manual",
+      "registrationDate": "2025-02-10T13:00:00Z",
+      "updatedAt": "2026-11-07T13:16:47.359Z"
+    },
+    {
+      "id": "mem_1794057424831_gpck",
+      "firstName": "Ruth",
+      "secondName": "Achan",
+      "fullName": "Ruth Achan",
+      "phone": "+256775112233",
+      "rawPhone": "0775112233",
+      "email": "ruth.achan@gmail.com",
+      "gender": "Female",
+      "departmentIds": [
+        "dept_6",
+        "dept_5",
+        "dept_7"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "source": "google_form",
+      "registrationDate": "2026-11-07T13:17:04.830Z",
+      "updatedAt": "2026-11-07T13:17:08.765Z"
+    },
+    {
+      "id": "mem_1794059600696_h94f",
+      "firstName": "Joshua",
+      "secondName": "Mukisa",
+      "fullName": "Joshua Mukisa",
+      "phone": "+256778991122",
+      "rawPhone": "0778991122",
+      "email": "joshua.mukisa@example.com",
+      "gender": "Male",
+      "departmentIds": [
+        "dept_2",
+        "dept_3"
+      ],
+      "smsConsent": true,
+      "status": "active",
+      "source": "google_form",
+      "registrationDate": "2026-11-07T13:53:20.695Z",
+      "updatedAt": "2026-11-07T13:53:20.695Z",
+      "googleResponseId": "2_ABaOnue_test_joshua_789",
+      "googleEditResponseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc_Example/viewform?edit2=2_ABaOnue_test_joshua_789",
+      "googleSubmittedAt": "2026-11-07T13:53:20.695Z",
+      "lastSyncedAt": "2026-11-07T13:53:20.695Z",
+      "syncStatus": "synced"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp_1794057436714",
+      "name": "Sunday Fellowship Test",
+      "message": "Hello {first_name}, blessings from Omega Prayer Mission Church Mbuya!",
+      "recipientType": "all_eligible",
+      "targetDepartmentIds": [],
+      "targetMemberIds": [],
+      "recipientCount": 7,
+      "estimatedCredits": 7,
+      "actualCredits": 0,
+      "status": "sending",
+      "createdAt": "2026-11-07T13:17:16.714Z",
+      "successfulCount": 0,
+      "failedCount": 1,
+      "pendingCount": 6,
+      "sentAt": "2026-11-07T13:17:20.666Z",
+      "approvedBy": "amarvinmulindwa2003@gmail.com"
+    }
+  ],
+  "smsTransactions": [
+    {
+      "id": "tx_1794057440668_ixyl",
+      "campaignId": "camp_1794057436714",
+      "recipientName": "Marvin Mulindwa",
+      "recipientPhone": "+256701234567",
+      "messageContent": "Hello Marvin, blessings from Omega Prayer Mission Church Mbuya!",
+      "calculatedCredits": 1,
+      "status": "Failed",
+      "errorReason": "BULKSMSUGANDA_API_KEY is not configured in Settings.",
+      "attemptCount": 1,
+      "sentAt": "2026-11-07T13:17:20.668Z",
+      "lastCheckedAt": "2026-11-07T13:17:20.668Z"
+    }
+  ],
+  "googleSyncLogs": [
+    {
+      "id": "sync_1794059600696",
+      "timestamp": "2026-11-07T13:53:20.695Z",
+      "source": "webhook",
+      "status": "success",
+      "totalReceived": 1,
+      "newCount": 1,
+      "updatedCount": 0,
+      "skippedCount": 0,
+      "failedCount": 0,
+      "errors": [],
+      "summary": "Google Sheets Registration Sync: 1 new, 0 updated, 0 failed of 1 received"
+    },
+    {
+      "id": "sync_1794059595285",
+      "timestamp": "2026-11-07T13:53:15.284Z",
+      "source": "webhook",
+      "status": "success",
+      "totalReceived": 1,
+      "newCount": 0,
+      "updatedCount": 1,
+      "skippedCount": 0,
+      "failedCount": 0,
+      "errors": [],
+      "summary": "Google Sheets Registration Sync: 0 new, 1 updated, 0 failed of 1 received"
+    },
+    {
+      "id": "sync_1794059588533",
+      "timestamp": "2026-11-07T13:53:08.533Z",
+      "source": "webhook",
+      "status": "failed",
+      "totalReceived": 1,
+      "newCount": 0,
+      "updatedCount": 0,
+      "skippedCount": 0,
+      "failedCount": 1,
+      "errors": [
+        "Row 1 (Sarah): Missing Phone Number"
+      ],
+      "summary": "Google Sheets Webhook: 0 new, 0 updated, 1 failed of 1 records received"
+    },
+    {
+      "id": "sync_1794059569049",
+      "timestamp": "2026-11-07T13:52:49.048Z",
+      "source": "webhook",
+      "status": "failed",
+      "totalReceived": 1,
+      "newCount": 0,
+      "updatedCount": 0,
+      "skippedCount": 0,
+      "failedCount": 1,
+      "errors": [
+        "Row 1 (Sarah): Missing Phone Number"
+      ],
+      "summary": "Google Sheets Webhook: 0 new, 0 updated, 1 failed of 1 records received"
+    },
+    {
+      "id": "sync_1794057428765",
+      "timestamp": "2026-11-07T13:17:08.765Z",
+      "source": "webhook",
+      "status": "success",
+      "totalReceived": 1,
+      "newCount": 0,
+      "updatedCount": 1,
+      "skippedCount": 0,
+      "failedCount": 0,
+      "errors": [],
+      "summary": "Google Sheets Webhook: 0 new, 1 updated, 0 failed of 1 records received"
+    },
+    {
+      "id": "sync_1794057424831",
+      "timestamp": "2026-11-07T13:17:04.830Z",
+      "source": "webhook",
+      "status": "success",
+      "totalReceived": 1,
+      "newCount": 1,
+      "updatedCount": 0,
+      "skippedCount": 0,
+      "failedCount": 0,
+      "errors": [],
+      "summary": "Google Sheets Webhook: 1 new, 0 updated, 0 failed of 1 records received"
+    }
+  ],
+  "providerSettings": {
+    "providerName": "Bulk SMS Uganda",
+    "baseUrl": "https://app.bulksmsug.com",
+    "apiKey": "",
+    "authScheme": "Bearer",
+    "defaultSenderId": "OmegaPrayer",
+    "lastKnownBalance": 250,
+    "lastBalanceUpdate": "2026-11-07T13:16:47.359Z"
+  },
+  "generalSettings": {
+    "churchName": "Omega Prayer Mission Church Mbuya",
+    "organizationUnit": "Kampala, Uganda",
+    "adminEmail": "amarvinmulindwa2003@gmail.com",
+    "defaultCountryCode": "+256",
+    "defaultTimezone": "Africa/Kampala",
+    "lowCreditThreshold": 50,
+    "requireCampaignApproval": true,
+    "webhookSecret": "churchsms_sec_9934812398",
+    "lastSuccessfulGoogleSync": "2026-11-07T13:53:20.695Z",
+    "lastExcelGeneratedAt": "2026-11-07T13:53:20.697Z"
+  },
+  "auditLogs": [
+    {
+      "id": "audit_1794059554767_6zabg",
+      "timestamp": "2026-11-07T13:52:34.767Z",
+      "adminEmail": "webhook",
+      "action": "WEBHOOK_AUTH_FAILED",
+      "details": "Unauthorized Google Sheets webhook attempt from IP: 127.0.0.1",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794058395088_l1pm8",
+      "timestamp": "2026-11-07T13:33:15.088Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "Administrator Marvin Mulindwa logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794058364248_61lr6",
+      "timestamp": "2026-11-07T13:32:44.248Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "Administrator Marvin Mulindwa logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794058359722_3kvat",
+      "timestamp": "2026-11-07T13:32:39.722Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "Administrator Marvin Mulindwa logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794058347649_5c376",
+      "timestamp": "2026-11-07T13:32:27.649Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "Administrator Marvin Mulindwa logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794057440666_x6url",
+      "timestamp": "2026-11-07T13:17:20.666Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "APPROVE_AND_DISPATCH_CAMPAIGN",
+      "details": "Dispatched campaign \"Sunday Fellowship Test\" to 7 recipients",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794057436715_mq6x0",
+      "timestamp": "2026-11-07T13:17:16.715Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "CREATE_CAMPAIGN",
+      "details": "Created campaign \"Sunday Fellowship Test\" (draft) with 7 recipients",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794057420781_x6cl4",
+      "timestamp": "2026-11-07T13:17:00.781Z",
+      "adminEmail": "webhook",
+      "action": "WEBHOOK_AUTH_FAILED",
+      "details": "Unauthorized Google Sheets webhook attempt from IP: 127.0.0.1",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_1794057413383_cfjdj",
+      "timestamp": "2026-11-07T13:16:53.383Z",
+      "adminEmail": "amarvinmulindwa2003@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "Administrator Marvin Mulindwa logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit_init",
+      "timestamp": "2026-11-07T13:16:47.359Z",
+      "adminEmail": "system",
+      "action": "SYSTEM_INITIALIZE",
+      "details": "ChurchSMS Manager database initialized with 14 departments and authorized administrators"
+    }
+  ],
+  "failedRegistrations": [],
+  "syncConflicts": [
+    {
+      "id": "conf_1794059595285_u4ak",
+      "memberId": "mem_1",
+      "timestamp": "2026-11-07T13:53:15.284Z",
+      "fieldName": "firstName",
+      "existingValue": "Marvin",
+      "incomingValue": "Sarah",
+      "status": "pending_review"
+    }
+  ]
+}

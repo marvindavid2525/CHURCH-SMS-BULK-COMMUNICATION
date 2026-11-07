@@ -1,0 +1,6 @@
+{
+  "name": "ChurchSMS Manager",
+  "description": "Church Bulk SMS and member management system for Omega Prayer Mission Church Mbuya, Uganda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
